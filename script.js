@@ -19,7 +19,7 @@ function load() {
   let container = document.getElementById("container");
   
   // طبّق الخطوة 6 تحت هذا الكومنت
-array.forEach(item => {
-  container.innerHTML +=    `<div><h1>${item.name} - ${item.id}</h1><h3>${item.order}</h3></div>`
+orders.forEach(item => {
+   container.innerHTML +=  `<div><h1>${item.name} - ${item.id}</h1><h3>${item.order}</h3></div>`
 });
 }
